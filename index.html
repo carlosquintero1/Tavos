@@ -3,30 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Index Tavos</title>
-
+    <title>TAVOS BROASTER - El Mejor Sabor</title>
+    
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="css/estilos.css">
-
-    <script src="js/bootstrap.js"></script>
-    <script src="js/jquery-3.5.1.slim.min.js"></script>
-    <script src="js/bootstrap.bundle.min.js"></script>
-
-    
 </head>
 <body>
+
+    <!-- NAVBAR FLOTANTE -->
     <div class="navbar-wrapper">
-        <nav class="navbar">
+        <nav class="navbar-flotante">
             <div class="nav-logo">
-                <img src="" alt="TAVOS BROASTER">
+                <img src="img/logo.png" alt="TAVOS BROASTER">
             </div>
             <ul class="nav-menu">
-                <li><a href="#">Eventos</a></li>
+                <li><a href="#">Events</a></li>
                 <li><a href="#">Sedes</a></li>
                 <li><a href="#">Menu</a></li>
                 <li><a href="#">Contacto</a></li>
             </ul>
         </nav>
     </div>
+
+    <main>
+        <div class="contenido">
+            <h1>¡EL MEJOR SABOR!</h1>
+            <h2>Sede Soacha</h2>
+            <h3>Cra 5este #12-34, Soacha Centro</h3>
+            
+            <!-- MAPA DE GOOGLE MAPS -->
+            <div class="mapa-container">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.5123!2d-74.2168!3d4.5797!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9e2c8e2d4b6f%3A0x8c4b9e5d2f1a7c3e!2sCra%207%20%2312-34%2C%20Soacha%2C%20Cundinamarca!5e0!3m2!1ses!2sco!4v1700000000000!5m2!1ses!2sco" 
+                    width="100%" 
+                    height="300" 
+                    style="border:0; border-radius: 20px;" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+                <a href="https://maps.app.goo.gl/mhUHyATCommVkeh68" target="_blank" class="ver-mapa">
+                    Ver en Google Maps 📍
+                </a>
+            </div>
+            <div class="horarios">
+                <div class="horario-linea">
+                    <p class="dia">Lunes a Jueves</p>
+                    <p class="hora">12:00 PM - 10:00 PM</p>
+                </div>
+                <div class="horario-linea">
+                    <p class="dia">Viernes a Domingo</p>
+                    <p class="hora">12:00 PM - 11:00 PM</p>
+                </div>
+            </div>
+            
+        </div>
+    </main>
+
+    <script src="js/jquery-3.5.1.slim.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
